@@ -77,7 +77,7 @@ describe('eliminarPropiedad(object, property)', function() {
       x: 1,
       y: 2,
       z: null,
-    };
+    };-
     expect(eliminarPropiedad(object, 'z')).toEqual(updatedObject);
   });
 });
